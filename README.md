@@ -59,4 +59,4 @@ Projeyi çalıştırmak için:
 3.  Projeyi Visual Studio ile açarak derleyin ve çalıştırın.
 
 ---
-*Geliştirici: [Adınız Soyadınız]*
+*Geliştirici: [Elif Karaman]*

@@ -3,7 +3,7 @@
 Aşağıdaki diyagram, sistemdeki aktörlerin (Admin ve Personel) gerçekleştirebileceği işlemleri göstermektedir.
 
 ```mermaid
-useCaseDiagram
+usecaseDiagram
     actor "Admin" as A
     actor "Personel" as P
 
