@@ -16,6 +16,20 @@ Proje, **N-Tier (Çok Katmanlı) Mimari** prensiplerine uygun olarak 4 ana katma
 *   **BLL (İş Mantığı Katmanı):** Veri işleme kuralları, doğrulamalar ve hesaplama mantıklarının bulunduğu katmandır.
 *   **UI (Kullanıcı Arayüzü):** Kullanıcının sistemle etkileşime girdiği Windows Form ekranlarıdır.
 
+```mermaid
+graph TD
+    User([Kullanıcı]) --> UI[UI - Arayüz Katmanı]
+    UI --> BLL[BLL - İş Mantığı Katmanı]
+    BLL --> DAL[DAL - Veri Erişim Katmanı]
+    DAL --> DB[(SQL Server)]
+    
+    Entity[Entity - Varlık Katmanı]
+    
+    UI -.-> Entity
+    BLL -.-> Entity
+    DAL -.-> Entity
+```
+
 ## 🚀 Özellikler ve Modüller
 
 Proje aşağıdaki temel modülleri içermektedir:
