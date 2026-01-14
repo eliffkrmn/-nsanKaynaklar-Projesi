@@ -7,6 +7,8 @@ Bu proje, katmanlı mimari yapısı kullanılarak geliştirilmiş kapsamlı bir 
 Projenin detaylı anlatımı ve kullanım videosu için aşağıdaki linke tıklayabilirsiniz:
 👉 **[YouTube: Proje Açıklama Videosu](https://youtu.be/bCzJp7Adcr8)**
 
+📄 **[Detaylı Use Case Diyagramı için tıklayınız](USE_CASE.md)**
+
 ## 🏗 Proje Mimarisi
 
 Proje, **N-Tier (Çok Katmanlı) Mimari** prensiplerine uygun olarak 4 ana katmandan oluşmaktadır:
