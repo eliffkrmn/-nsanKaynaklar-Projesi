@@ -6,6 +6,7 @@ Aşağıdaki diyagram, sistemdeki aktörlerin (Admin ve Personel) gerçekleştir
 graph TD
     %% Actors
     Admin((👤 Admin))
+    IK((👤 İK Personeli))
     Personel((👤 Personel))
 
     %% System Boundary
@@ -24,14 +25,23 @@ graph TD
 
     %% Relationships
     Admin --> UC1
+    IK --> UC1
     Personel --> UC1
     
+    %% Admin Privileges (System Level)
     Admin --> UC2
     Admin --> UC3
     Admin --> UC4
     Admin --> UC6
     Admin --> UC7
     Admin --> UC8
+    
+    %% IK Personeli Privileges (HR Operations)
+    IK --> UC2
+    IK --> UC4
+    IK --> UC6
+    IK --> UC7
+    IK --> UC8
     
     Personel --> UC5
     Personel --> UC9
